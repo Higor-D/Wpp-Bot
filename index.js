@@ -13,7 +13,7 @@ const puppeteer = require("puppeteer");
     await page.waitForSelector("._2_1wd");
     await delay(5000);
 
-    const contactName = "Name";
+    const contactName = "Name";  // Configure contactName here <--
     await page.click(`span[title='${contactName}']`);
     await page.waitForSelector(".OTBsx");
 
