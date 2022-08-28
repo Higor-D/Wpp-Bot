@@ -1,11 +1,14 @@
 {
-  "name": "enj-wpp-bot",
+  "name": "wpp-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "A bot for run message auto in WhatsApp WeB",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ."
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Higor123123",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^16.2.0"
+  }
 }
